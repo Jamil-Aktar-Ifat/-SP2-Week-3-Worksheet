@@ -1,3 +1,4 @@
+package Porblem_2;
 public class Problem_2 {
     public static void main(String[] args) {
         double[] x = { 8, 4, 5, 21, 7, 9, 18, 2, 100 };
