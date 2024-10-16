@@ -26,6 +26,16 @@ public class Problem_4 {
         // problem d
         print("The last name of the list using size(): " + (names.get(names.size() - 1)));
 
+        // problem e
+        print("Before set Anna insted of Alice: " + names);
+        names.set(0, "Anna");
+        print("After set Anna insted of Alice: " + names);
+
+        // problem f
+        print("Before add Doug: " + names);
+        names.add(4, "Doug");
+        print("After add Doug: " + names);
+
     }
 
     // method to print anything
