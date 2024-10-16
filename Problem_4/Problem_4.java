@@ -36,6 +36,22 @@ public class Problem_4 {
         names.add(4, "Doug");
         print("After add Doug: " + names);
 
+        // problem g
+        print("---------USING ENHANCED FOR LOOP--------");
+        for (String name : names) {
+            print(name);
+        }
+        print("---------LOOP END--------");
+
+        // problem h
+        ArrayList<String> names2 = new ArrayList<>(names);
+        print("names2: " + names2);
+
+        // problem i
+        names.remove(0);
+        print("names: " + names);
+        print("names2: " + names2);
+
     }
 
     // method to print anything
